@@ -11,7 +11,7 @@ public class DemoController {
 
   @RequestMapping
   public Mono<ResponseEntity<ApiInfo>> demo() {
-    return Mono.just(ResponseEntity.ok(ApiInfo.builder().version("1.0.0").name("demo").build()));
+    return Mono.just(ResponseEntity.ok(ApiInfo.builder().version("1.0.1").name("demo").build()));
   }
 
 }
